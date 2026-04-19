@@ -19,6 +19,15 @@ The goal of this work is to analyze divergence in training trajectories and unde
   - Explosive
 - Simple decision framework for interpreting divergence
 
+## Key Observations
+
+- Deterministic runs remain stable across training  
+- Stochastic runs show structured but non-monotonic divergence  
+- Optimizer choice significantly affects divergence behavior  
+- Small perturbations can compound over time  
+
+These observations suggest that divergence is not random and should be interpreted based on behavior rather than strict numerical matching.
+
 ## Key Insight
 
 Not all divergence means failure.
